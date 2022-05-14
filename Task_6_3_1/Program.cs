@@ -10,6 +10,7 @@ namespace Task_6_3_1
         }
         static Department GetCurrentDepartment()
         {
+            //int? a = null;
             Department new_dep = new Department { Company = new Company { Type = "Банк"}, City = new City { Name = "Санкт-Петербург" } };
             Console.WriteLine("У банка {0} есть отделение в {1}е", new_dep.Company.Name ?? "Неизвестный", new_dep.City.Name );
             return new_dep;
