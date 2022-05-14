@@ -7,9 +7,6 @@ namespace Task_6_2_8
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-
-            Employee employee = new Employee();
-
         }
     }
     public class Rectangle

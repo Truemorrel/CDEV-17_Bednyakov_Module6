@@ -7,6 +7,11 @@ namespace Task_6_3_2
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            Bus bus = new Bus();
+            bus.Load = 144;
+            bus.PrintStatus();
+            Bus bus1 = new Bus();
+            bus1.PrintStatus();
         }
         class Bus
         {
